@@ -6,7 +6,6 @@ from app.models import Ticket
 from app.schemas import (
     TicketCreate,
     TicketOut,
-    TicketList,
     PaginatedTickets,
     TicketUpdate
 )
