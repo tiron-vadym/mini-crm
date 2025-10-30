@@ -6,4 +6,3 @@ app = FastAPI(title="Mini-CRM Repair Requests")
 app.include_router(auth.router)
 app.include_router(tickets.router)
 app.include_router(client.router)
-
