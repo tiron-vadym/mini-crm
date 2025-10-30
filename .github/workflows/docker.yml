@@ -2,7 +2,7 @@ name: CI/CD - Build and Push to Docker Hub
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
     tags: ["*"]
 
 jobs:
